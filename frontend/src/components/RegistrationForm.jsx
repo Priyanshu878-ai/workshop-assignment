@@ -30,7 +30,7 @@ function RegistrationForm() {
       setLoading(true);
 
       const response = await fetch(
-        "http://localhost:5000/api/enquiry",
+        "https://workshop-backend-fato.onrender.com/api/enquiry",
         {
           method: "POST",
           headers: {
